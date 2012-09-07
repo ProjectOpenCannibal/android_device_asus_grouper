@@ -73,4 +73,6 @@ TARGET_PREBUILT_KERNEL := device/asus/grouper/kernel
 BOARD_USE_CUSTOM_RECOVERY_FONT := true
 
 #BOARD_TS_MAX_ROWS sets the MAX_ROWS amount. Use this to limit the height of the touch surface
-BOARD_TS_MAX_ROWS = 45
+BOARD_TS_MAX_ROWS := 45
+
+DEVICE_RESOLUTION := 800x1200
