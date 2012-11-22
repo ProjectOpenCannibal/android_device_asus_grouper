@@ -63,8 +63,6 @@ NEED_WORKAROUND_CORTEX_A9_745320 := true
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_grouper
-BOARD_CUSTOM_RECOVERY_UI := ../../device/asus/grouper/recovery/default_recovery_ui.c
-BOARD_CUSTOM_RECOVERY_POWER_PROFILE := ../../device/asus/grouper/recovery/custom_power.c
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/asus/grouper
 
@@ -72,7 +70,11 @@ TARGET_PREBUILT_KERNEL := device/asus/grouper/kernel
 
 BOARD_USE_CUSTOM_RECOVERY_FONT := true
 
-#BOARD_TS_MAX_ROWS sets the MAX_ROWS amount. Use this to limit the height of the touch surface
+## COT ##
+BOARD_CUSTOM_RECOVERY_UI := ../../device/asus/grouper/recovery/default_recovery_ui.c
+BOARD_CUSTOM_RECOVERY_POWER_PROFILE := ../../device/asus/grouper/recovery/custom_power.c
+# BOARD_TS_MAX_ROWS sets the MAX_ROWS amount.
+# Use this to limit the height of the scrolling text
 BOARD_TS_MAX_ROWS := 45
-
 DEVICE_RESOLUTION := 800x1200
+BOARD_RECOVERY_RELEASE_TYPE := RC1
