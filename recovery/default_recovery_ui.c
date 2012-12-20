@@ -29,8 +29,8 @@
  */
 int minimum_storage=1500;
 
-// the height of the virtual_keys image specific to this device
-int board_touch_button_height = 107;
+// the height of the virtual_keys image specific to this device (not used)
+//int board_touch_button_height = 107;
 
 // define what line to draw the battery indicator on
 int BATT_LINE=0;

@@ -77,4 +77,4 @@ BOARD_CUSTOM_RECOVERY_POWER_PROFILE := ../../device/asus/grouper/recovery/custom
 # Use this to limit the height of the scrolling text
 BOARD_TS_MAX_ROWS := 45
 DEVICE_RESOLUTION := 800x1200
-BOARD_RECOVERY_RELEASE_TYPE := RC1
+BOARD_RECOVERY_RELEASE_TYPE := Alpha 1
